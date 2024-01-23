@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-container {
+  max-width: 80%; /* Adjust the maximum width as needed */
+  overflow-x: auto; /* Add horizontal scrollbar when content overflows */
+  margin-top: 20px; /* Add space between tables */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  /* Add other table styles here */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.error {
+  color: red;
+}
+
+.plus-button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  display: none;
+}
